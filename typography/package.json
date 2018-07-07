@@ -1,0 +1,23 @@
+{
+  "name": "gatsby-typography",
+  "description": "Gatsby Typography.js example",
+  "private": true,
+  "author": "Artem Sapegin <artem@sapegin.ru>",
+  "dependencies": {
+    "gatsby": "^1.9.247",
+    "gatsby-link": "^1.6.40",
+    "gatsby-plugin-react-helmet": "^2.0.10",
+    "gatsby-plugin-typography": "^1.7.19",
+    "react-helmet": "^5.2.0",
+    "typography-theme-lincoln": "^0.15.11"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
