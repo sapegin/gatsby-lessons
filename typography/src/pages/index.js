@@ -1,7 +1,9 @@
 import React from 'react'
 
+import Layout from '../components/layout'
+
 const IndexPage = () => (
-	<div>
+	<Layout>
 		<h1>The quick brown fox jumps over the lazy dog</h1>
 		<h2>The fox, quick and brown</h2>
 		<p>
@@ -32,12 +34,14 @@ const IndexPage = () => (
 			changes are known to trigger high sociability and somewhat reduced
 			intelligence. Dogs vary widely in shape, size and colors. Dogs perform
 			many roles for people, such as{' '}
-			<a href="#">hunting, herding, pulling loads</a>, protection, assisting
-			police and military, companionship and, more recently, aiding handicapped
-			individuals and therapeutic roles. This influence on human society has
-			given them the sobriquet “man's best friend”.
+			<a href="https://en.wikipedia.org/wiki/Dog">
+				hunting, herding, pulling loads
+			</a>, protection, assisting police and military, companionship and, more
+			recently, aiding handicapped individuals and therapeutic roles. This
+			influence on human society has given them the sobriquet “man's best
+			friend”.
 		</p>
-	</div>
+	</Layout>
 )
 
 export default IndexPage
